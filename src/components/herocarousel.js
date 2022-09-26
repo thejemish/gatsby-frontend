@@ -6,7 +6,7 @@ const HeroCarousel = () => {
   const [slogen, setSlogens] = useState("")
   useEffect(() => {
     axios
-      .get("http://localhost:1337/api/home")
+      .get("https://ancient-lake-01549.herokuapp.com/api/home")
       .then(function (response) {
         // handle success
         const allslogen = response.data.data.attributes
