@@ -1,0 +1,24 @@
+.hero-carousel {
+  height: 100vh;
+  position: relative;
+  background-position: 0px 0px;
+  background-size: cover;
+  z-index: 0;
+  padding-top: 200px;
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../images/home/hero-bg.png");
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+  }
+  .Typewriter {
+    span {
+      font-size: 48px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}
