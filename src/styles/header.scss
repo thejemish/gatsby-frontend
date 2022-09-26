@@ -1,6 +1,10 @@
 header {
-  background-color: #002f7e;
   padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
   .menu-ul {
     li {
       a {

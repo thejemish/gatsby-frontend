@@ -6,18 +6,13 @@ const HeroCarousel = () => {
   const [slogen, setSlogens] = useState("")
   useEffect(() => {
     axios
-      .get("https://ancient-lake-01549.herokuapp.com/api/home")
+      .get("https://podamium.herokuapp.com/api/home")
       .then(function (response) {
-        // handle success
         const allslogen = response.data.data.attributes
         setSlogens(allslogen)
       })
       .catch(function (error) {
-        // handle error
         console.log(error)
-      })
-      .then(function () {
-        // always executed
       })
   }, [])
   return (

@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="text-white shadow-md">
+      <header className="text-white bg-dark-blue">
         <div className="container mx-auto flex justify-between">
           {/* Logo */}
           <div>
